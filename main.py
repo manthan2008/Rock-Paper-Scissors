@@ -54,7 +54,7 @@ while num_of_choices > chances_used:
 
     elif _input == 'p' and _random == 's':
         computer = computer + 1
-        human = 0
+        human = human
         print('Oops.. Computer got away with a point \n')
         print(f'Human guessed - {_input}')
         print(f'Computer guessed - {_random}')
@@ -65,7 +65,7 @@ while num_of_choices > chances_used:
 
     elif _input == 's' and _random == 'r':
         computer = computer + 1
-        human = 0
+        human = human
         print('Oops.. Computer got away with a point \n')
         print(f'Human guessed - {_input}')
         print(f'Computer guessed - {_random}')
