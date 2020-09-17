@@ -28,7 +28,7 @@ while num_of_choices > chances_used:
         print(f'Human points are - {human}')
         print(f'Computer points are - {computer}')
         chances_used = chances_used + 1
-        print(f'{chances_used} are done out of {num_of_choices}\n')
+        print(f'{chances_used} are done out of  {num_of_choices}\n')
 
     elif _input == 'r' and _random == 's':
         computer = computer
@@ -39,8 +39,8 @@ while num_of_choices > chances_used:
         print(f'Human points are - {human}')
         print(f'Computer points are - {computer}')
         chances_used = chances_used + 1
-        print(f'{chances_used} are done out of {num_of_choices}/n')
-
+        print(f'{chances_used} are done out of  {num_of_choices}\n')
+        
     elif _input == 'p' and _random == 'r':
         computer = computer
         human = human + 1
@@ -50,7 +50,7 @@ while num_of_choices > chances_used:
         print(f'Human points are - {human}')
         print(f'Computer points are - {computer}')
         chances_used = chances_used + 1
-        print(f'{chances_used} are done out of {num_of_choices}\n')
+        print(f'{chances_used} are done out of  {num_of_choices}\n')
 
     elif _input == 'p' and _random == 's':
         computer = computer + 1
@@ -61,7 +61,7 @@ while num_of_choices > chances_used:
         print(f'Human points are - {human}')
         print(f'Computer points are - {computer}')
         chances_used = chances_used + 1
-        print(f'{chances_used} are done out of {num_of_choices}\n')
+        print(f'{chances_used} are done out of  {num_of_choices}\n')
 
     elif _input == 's' and _random == 'r':
         computer = computer + 1
@@ -72,7 +72,7 @@ while num_of_choices > chances_used:
         print(f'Human points are - {human}')
         print(f'Computer points are - {computer}')
         chances_used = chances_used + 1
-        print(f'{chances_used} are done out of {num_of_choices}\n')
+        print(f'{chances_used} are done out of  {num_of_choices}\n')
 
     elif _input == 's' and _random == 'p':
         computer = computer
@@ -83,10 +83,10 @@ while num_of_choices > chances_used:
         print(f'Human points are - {human}')
         print(f'Computer points are - {computer}')
         chances_used = chances_used + 1
-        print(f'{chances_used} are done out of {num_of_choices}\n')
+        print(f'{chances_used} are done out of  {num_of_choices}\n')
 
     elif _input == 'quit':
-        quit(10)
+        break
 
     else:
         print('Error:: Enter properly again')
